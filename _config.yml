@@ -1,0 +1,31 @@
+title: My Blog
+description: A GitHub Pages blog powered by Just the Docs.
+theme: just-the-docs
+
+url: ""
+permalink: pretty
+timezone: Asia/Seoul
+
+plugins:
+  - jekyll-feed
+
+search_enabled: true
+heading_anchors: true
+
+nav_enabled: true
+color_scheme: light
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+
+feed:
+  posts_limit: 20
