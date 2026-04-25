@@ -2,7 +2,7 @@
 
 GitHub Pages blog powered by [Just the Docs](https://github.com/just-the-docs/just-the-docs).
 
-## Local preview
+## Local preview 
 
 ```sh
 bundle install
